@@ -90,3 +90,150 @@
 
 </body>
 </html>
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Profile Section Styling */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  margin-left: 20px;
+}
+
+.profile-info h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.profile-info p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* Skills Section Styling */
+.skills table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.skills th, .skills td {
+  padding: 10px;
+  text-align: left;
+}
+
+.skills th {
+  background-color: #333;
+  color: white;
+}
+
+.skills td {
+  background-color: #f9f9f9;
+}
+
+.strength {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.strength.filled {
+  background-color: #4caf50;
+}
+
+/* About Section Styling */
+.about {
+  margin-bottom: 30px;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form Styling */
+.contact-form form {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-form li {
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
