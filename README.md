@@ -13,7 +13,6 @@
       <h1>John Doe</h1>
       <p>Web Developer | Designer | Content Creator</p>
     </header>
-    
     <!-- Profile Section -->
     <section class="profile">
       <table>
@@ -29,7 +28,6 @@
         </tr>
       </table>
     </section>
-
     <!-- Skills Section -->
     <section class="skills">
       <h2>Skills & Strengths</h2>
@@ -68,23 +66,19 @@
         <span class="strength"></span> - Learning
       </p>
     </section>
-
     <!-- About Me Section -->
     <section class="about">
       <h2>About Me</h2>
       <p>I am a passionate and recent graduate with a strong foundation in web development. Eager to learn and contribute to creative projects. I am highly motivated and possess excellent problem-solving skills.</p>
-      
       <!-- Adding Address and Profession -->
       <p><strong>Address:</strong> 1234 Web Dev Street, City, Country</p>
       <p><strong>Profession:</strong> Freelance Web Developer</p>
     </section>
-
     <!-- Experience Section -->
     <section class="experience">
       <h2>Experience</h2>
       <p>Additional experience details would go here...</p>
     </section>
-
     <!-- Footer with contact info -->
     <footer>
       <p>
@@ -111,7 +105,6 @@
       <h1>John Doe</h1>
       <p>Web Developer | Designer | Content Creator</p>
     </header>
-    
     <!-- Contact Form Section -->
     <section class="contact-form">
       <h2>Get in Touch</h2>
@@ -144,7 +137,6 @@
         </ul>
       </form>
     </section>
-    
     <!-- Footer with links -->
     <footer>
       <p>
