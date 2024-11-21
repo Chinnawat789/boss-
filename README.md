@@ -51,3 +51,43 @@
                     <h3>Proficiency</h3>
                     <div class="chart-bar">
  
+.chart-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.chart-bar span {
+    flex-basis: 100px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.chart-bar .bar {
+    flex-grow: 1;
+    height: 12px;
+    background: #ddd;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+.chart-bar .bar::after {
+    content: '';
+    display: block;
+    height: 100%;
+    background: linear-gradient(90deg, #007BFF, #0056b3);
+    width: 0;
+    border-radius: 6px;
+    animation: loadBar 1.5s ease-in-out forwards;
+}
+
+@keyframes loadBar {
+    from {
+        width: 0;
+    }
+    to {
+        width: var(--width);
+    }
+}
