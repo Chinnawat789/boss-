@@ -9,6 +9,8 @@
 <body>
     <div class="resume-container">
         <header>
+            <!-- เพิ่มรูปโปรไฟล์ -->
+            <img src="profile.jpg" alt="Profile Picture" class="profile-picture">
             <h1>Chinnawat Saengkaew</h1>
             <p>Digital and Information Technology (DIT)</p>
         </header>
