@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chinnawat Saengkaew - Resume</title>
+    <title>ชินวัฒน์ แสงแก้ว - ประวัติย่อ</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         /* Global Styles */
@@ -36,6 +36,9 @@
             font-size: 1.1rem;
             padding: 5px 10px;
         }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
         /* Header */
         header {
             text-align: center;
@@ -50,7 +53,22 @@
             object-fit: cover;
             margin-bottom: 10px;
         }
-        /* Skills Section */
+        /* About Section */
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: #007BFF;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+        }
+        /* Skill Bars */
         .chart-bar {
             display: flex;
             align-items: center;
@@ -58,7 +76,7 @@
             margin-bottom: 10px;
         }
         .chart-bar span {
-            flex-basis: 100px;
+            flex-basis: 150px;
             font-size: 0.9rem;
             color: #555;
         }
@@ -93,45 +111,46 @@
     <!-- Navigation -->
     <nav>
         <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#work-history">Work History</a></li>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">เกี่ยวกับฉัน</a></li>
+            <li><a href="#skills">ทักษะ</a></li>
+            <li><a href="#contact">ติดต่อ</a></li>
         </ul>
     </nav>
-    <div class="resume-container">
-        <!-- Header -->
-        <header>
-            <div class="profile-header">
-                <img src="profile.jpg" alt="Profile Picture" class="profile-picture">
-                <div class="profile-info">
-                    <h1>Chinnawat Saengkaew</h1>
-                    <p>Digital and Information Technology (DIT)</p>
-                </div>
-            </div>
-        </header>
-        <!-- About Me -->
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I work specifically with computers. I have basic knowledge of using programs, troubleshooting, and part replacement. I am eager to learn and adapt to new environments quickly.</p>
-        </section>
-        <!-- Skills -->
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="chart-bar">
-                <span>SQL</span>
-                <div class="bar" style="--width: 80%;"></div>
-            </div>
-            <div class="chart-bar">
-                <span>Networking</span>
-                <div class="bar" style="--width: 70%;"></div>
-            </div>
-            <div class="chart-bar">
-                <span>2D Animation</span>
-                <div class="bar" style="--width: 60%;"></div>
-            </div>
-        </section>
-    </div>
+    <!-- Header -->
+    <header>
+        <img src="profile.jpg" alt="รูปโปรไฟล์" class="profile-picture">
+        <h1>ชินวัฒน์ แสงแก้ว</h1>
+        <p>สาขาวิชาดิจิทัลและเทคโนโลยีสารสนเทศ (DIT)</p>
+    </header>
+    <!-- About Section -->
+    <section id="about">
+        <h2>เกี่ยวกับฉัน</h2>
+        <p>
+            ฉันทำงานเกี่ยวกับคอมพิวเตอร์โดยเฉพาะ ฉันมีความรู้พื้นฐานเกี่ยวกับการใช้โปรแกรม การแก้ไขปัญหา และการเปลี่ยนชิ้นส่วน 
+            ฉันกระตือรือร้นที่จะเรียนรู้และปรับตัวเข้ากับสภาพแวดล้อมใหม่ๆ ได้อย่างรวดเร็ว
+        </p>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>ทักษะ</h2>
+        <div class="chart-bar">
+            <span>เอสคิวแอล</span>
+            <div class="bar" style="--width: 80%;"></div>
+        </div>
+        <div class="chart-bar">
+            <span>การสร้างเครือข่าย</span>
+            <div class="bar" style="--width: 70%;"></div>
+        </div>
+        <div class="chart-bar">
+            <span>แอนิเมชั่น 2D</span>
+            <div class="bar" style="--width: 60%;"></div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>ติดต่อ</h2>
+        <p><strong>โทรศัพท์:</strong> 082-926-6961</p>
+        <p><strong>อีเมล:</strong> rejikung100@gmail.com</p>
+    </section>
 </body>
 </html>
