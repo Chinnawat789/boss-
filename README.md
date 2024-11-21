@@ -1,239 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>John Doe's Online Resume</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinnawat Saengkaew - Resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <div class="container">
-    <!-- Header Section -->
-    <header>
-      <h1>John Doe</h1>
-      <p>Web Developer | Designer | Content Creator</p>
-    </header>
-    <!-- Profile Section -->
-    <section class="profile">
-      <table>
-        <tr>
-          <td class="profile-image">
-            <img src="profile.jpg" alt="John Doe's Profile Picture" style="border-radius: 50%;">
-          </td>
-          <td class="profile-info">
-            <h2>John Doe</h2>
-            <p>Web Developer | Recent Graduate</p>
-            <p>University of Web Development | Computer Science</p>
-            <p><strong>Address:</strong> 1234 Web Dev Street, City, Country</p>
-            <p><strong>Profession:</strong> Freelance Web Developer</p>
-          </td>
-        </tr>
-      </table>
-    </section>
-    <!-- Skills Section -->
-    <section class="skills">
-      <h2>Skills & Strengths</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Skill</th>
-            <th>Beginner</th>
-            <th>Intermediate</th>
-            <th>Advanced</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HTML5</td>
-            <td><span class="strength filled"></span></td>
-            <td><span class="strength filled"></span></td>
-            <td><span class="strength"></span></td>
-          </tr>
-          <tr>
-            <td>CSS3</td>
-            <td><span class="strength filled"></span></td>
-            <td><span class="strength filled"></span></td>
-            <td><span class="strength"></span></td>
-          </tr>
-          <tr>
-            <td>JavaScript</td>
-            <td><span class="strength filled"></span></td>
-            <td><span class="strength filled"></span></td>
-            <td><span class="strength"></span></td>
-          </tr>
-        </tbody>
-      </table>
-      <p class="skill-level-explanation">
-        <span class="strength filled"></span> - Experienced
-        <span class="strength"></span> - Learning
-      </p>
-    </section>
-    <!-- About Me Section -->
-    <section class="about">
-      <h2>About Me</h2>
-      <p>I am a passionate and recent graduate with a strong foundation in web development. Eager to learn and contribute to creative projects. I am highly motivated and possess excellent problem-solving skills.</p>
-    </section>
-    <!-- Experience Section -->
-    <section class="experience">
-      <h2>Experience</h2>
-      <p>Additional experience details would go here...</p>
-    </section>
-    <!-- Footer with contact info -->
-    <footer>
-      <p>
-        <a href="https://github.com/johndoe" target="_blank">GitHub</a> |
-        <a href="contact.html">Contact</a>
-      </p>
-    </footer>
-  </div>
-
+    <div class="resume-container">
+        <header>
+            <h1>Chinnawat Saengkaew</h1>
+            <p>Digital and Information Technology (DIT)</p>
+        </header>
+        <section class="contact-info">
+            <p><strong>Phone:</strong> 082-926-6961</p>
+            <p><strong>Email:</strong> rejikung100@gmail.com</p>
+            <p><strong>Address:</strong> 100/586 Bang Khae District, Bangkok</p>
+        </section>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>I work specifically with computers. I have basic knowledge of using programs, troubleshooting, and part replacement. I am eager to learn and adapt to new environments quickly.</p>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Computer Skills:</strong> MS SQL Server, MySQL, LAN/WAN, Internet, MS Excel, Animation Design, MS PowerPoint, MS Word, 2D Animation</li>
+                <li><strong>Language Skills:</strong> English, Thai</li>
+            </ul>
+        </section>
+        <section class="work-history">
+            <h2>Work History</h2>
+            <p><strong>CP ALL Public Company Limited</strong> (Oct 2023 - Present)</p>
+            <p>Business Type: Consumer Goods</p>
+            <p>Last Position: Education/Training</p>
+        </section>
+        <section class="career-goals">
+            <h2>Career Goals</h2>
+            <ul>
+                <li>Work for a small company</li>
+                <li>Be an important part of the team's success</li>
+                <li>Apply the experiences, knowledge, and skills gained</li>
+                <li>Become an expert/specialist</li>
+            </ul>
+        </section>
+        <section class="courses">
+            <h2>Additional Courses</h2>
+            <ul>
+                <li>Coursera: Introduction to Networking and Cloud Computing</li>
+                <li>Google IT Support Professional Certificate</li>
+                <li>SkillLane: AI for Presentation</li>
+                <li>Alison: Find the Right IT Job</li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
-/* General Styling */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Header Styling */
-header {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-header h1 {
-  font-size: 2.5rem;
-  margin: 0;
-}
-
-header p {
-  font-size: 1.2rem;
-  color: #666;
-}
-
-/* Profile Section Styling */
-.profile {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.profile-image img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.profile-info {
-  margin-left: 20px;
-}
-
-.profile-info h2 {
-  font-size: 2rem;
-  margin: 0;
-}
-
-.profile-info p {
-  font-size: 1.1rem;
-  color: #444;
-}
-
-/* Skills Section Styling */
-.skills table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.skills th, .skills td {
-  padding: 10px;
-  text-align: left;
-}
-
-.skills th {
-  background-color: #333;
-  color: white;
-}
-
-.skills td {
-  background-color: #f9f9f9;
-}
-
-.strength {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-color: #ddd;
-  border-radius: 50%;
-  margin-right: 5px;
-}
-
-.strength.filled {
-  background-color: #4caf50;
-}
-
-/* About Section Styling */
-.about {
-  margin-bottom: 30px;
-}
-
-/* Footer Styling */
-footer {
-  text-align: center;
-  margin-top: 40px;
-}
-
-footer a {
-  text-decoration: none;
-  color: #333;
-  margin: 0 10px;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-/* Contact Form Styling */
-.contact-form form {
-  list-style: none;
-  padding: 0;
-}
-
-.contact-form li {
-  margin-bottom: 15px;
-}
-
-.contact-form label {
-  display: block;
-  font-weight: bold;
-}
-
-.contact-form input, .contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.contact-form button {
-  padding: 10px 15px;
-  background-color: #4caf50;
-  border: none;
-  border-radius: 4px;
-  color: white;
-  font-size: 1rem;
-}
-
-.contact-form button:hover {
-  background-color: #45a049;
-}
