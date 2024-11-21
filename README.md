@@ -14,7 +14,6 @@
             background: #f4f4f9;
             color: #333;
         }
-
         /* Navigation */
         nav {
             background: rgba(0, 123, 255, 0.8);
@@ -23,7 +22,6 @@
             top: 0;
             z-index: 1000;
         }
-
         nav ul {
             list-style: none;
             display: flex;
@@ -32,14 +30,12 @@
             padding: 0;
             gap: 20px;
         }
-
         nav ul li a {
             color: white;
             text-decoration: none;
             font-size: 1.1rem;
             padding: 5px 10px;
         }
-
         /* Header */
         header {
             text-align: center;
@@ -47,7 +43,6 @@
             background: #007BFF;
             color: white;
         }
-
         .profile-picture {
             width: 120px;
             height: 120px;
@@ -55,7 +50,6 @@
             object-fit: cover;
             margin-bottom: 10px;
         }
-
         /* Skills Section */
         .chart-bar {
             display: flex;
@@ -63,13 +57,11 @@
             gap: 10px;
             margin-bottom: 10px;
         }
-
         .chart-bar span {
             flex-basis: 100px;
             font-size: 0.9rem;
             color: #555;
         }
-
         .chart-bar .bar {
             flex-grow: 1;
             height: 12px;
@@ -78,7 +70,6 @@
             position: relative;
             overflow: hidden;
         }
-
         .chart-bar .bar::after {
             content: '';
             display: block;
@@ -88,7 +79,6 @@
             border-radius: 6px;
             animation: loadBar 1.5s ease-in-out forwards;
         }
-
         @keyframes loadBar {
             from {
                 width: 0;
